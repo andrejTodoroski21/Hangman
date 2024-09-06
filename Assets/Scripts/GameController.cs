@@ -7,11 +7,16 @@ public class GameController : MonoBehaviour
 {
 
     public Text timeField;
-    private float time; 
+    public Text WordToFindField;
+    private float time;
+    private string[] wordsLocal = {"RICH", "MINECRAFT", "VALORANT", "PHANTOM"};
+    private string chosenWord;
+    private string hiddenWord;
+
     // Start is called before the first frame update
     void Start()
     {
-        
+        chosenWord = wordsLocal[Random.Range(0,3)];
     }
 
     // Update is called once per frame
