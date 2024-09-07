@@ -4,5 +4,8 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Hangman.unity
+    guid: 3601e0c1eea3dbf408682384a621a49d
   m_configObjects: {}
